@@ -26,6 +26,10 @@
       "package": "framework-arduino-sam",
       "script": "builder/frameworks/arduino.py"
     },
+    "conceptual": {
+      "package": "framework-conceptual",
+      "script": "builder/frameworks/conceptual.py"
+    },
     "zephyr": {
       "package": "framework-zephyr",
       "script": "builder/frameworks/zephyr.py"
@@ -96,6 +100,10 @@
       "optional": true,
       "owner": "platformio",
       "version": "~1.0.6"
+    },
+    "framework-conceptual": {
+      "type": "framework",
+      "optional": true
     },
     "framework-cmsis": {
       "type": "framework",
